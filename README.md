@@ -15,16 +15,18 @@ This application checks for exposed directories on a list of URLs and logs the r
 - `requests` library
 
 You can install the required library using:
+
 ```sh
 pip install requests
 ```
 
 # Usage
+
 - Place your list of URLs in a file named links.txt in the same directory as the script.
 - Run the script.
 
 ```sh
-<python path variable> exposed_directory_checker.py
+<python path variable> main.py
 ```
 
 Follow the prompts to specify if you want to print blocked directories and error links.
